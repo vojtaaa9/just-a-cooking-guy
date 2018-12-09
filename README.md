@@ -5,7 +5,6 @@ Food/baking blog template for Jekyll. Browse through a [live demo](https://sprin
 ## Setup
 
 1. Add your site and author details in `_config.yml`.
-3. Add your details to `_data/sidebar.yml`
 
 ## Develop
 
@@ -22,10 +21,6 @@ Run `jekyll` commands through Bundler to ensure you're using the right versions:
 ~~~bash
 $ bundle exec jekyll serve
 ~~~
-
-## Editing
-
-Treat is already optimised for adding, updating and removing recipes, navigation, page content, and sidebar information in CloudCannon.
 
 ### Posts/Recipes
 

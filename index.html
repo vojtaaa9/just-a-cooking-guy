@@ -1,6 +1,7 @@
 ---
-title: Home
+title: Domů
 ---
+
 <section class="posts">
 	{% for post in paginator.posts %}
 		<article class="post">
@@ -18,13 +19,13 @@ title: Home
 	{% if paginator.total_pages > 1 %}
 		<div class="pagination">
 			{% if paginator.previous_page %}
-				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Novější recepty</a>
 			{% endif %}
 
 			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 			{% if paginator.next_page %}
-				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Starší recepty &rarr;</a>
 			{% endif %}
 		</div>
 	{% endif %}
