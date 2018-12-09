@@ -46,6 +46,9 @@ defaults:
     values:
       layout: "default"
 
+sass:
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
