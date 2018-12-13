@@ -9,18 +9,15 @@
 		{% if page.print_stylesheet %}
 			<link rel="stylesheet" media="print" href="{{ site.baseurl }}/css/print.css">
 		{% endif %}
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 	</head>
 	<body>
 		{% include navigation.html %}
 		<header>
-			<a href="{{site.baseurl }}/">
-				<img src="{{ site.baseurl }}/images/logo.svg" width="180" alt="logo">
-			</a>
+			Just-a-cooking-guy
 		</header>
-		<div class="container main-content">
+		<main class="container main-content">
 			<section class="content">{{ content }}</section>
-		</div>
+		</main>
 		<footer>
 			<div class="container">
 				<hr>
